@@ -55,24 +55,25 @@ main {
 }
 
 .mic-logo-container .tooltip {
-  background-color: black;
+  background-color: rgb(45, 45, 45);
   color: white;
+  font-size: 0.7rem;
   font-weight: bold;
   white-space: nowrap;
   position: absolute;
-  inset: auto auto -45px -16px;
+  inset: auto auto -4.6em -1.9em;
   padding: 0.9em 1em;
   border: 1px solid white;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .mic-logo-container .tooltip .arrow {
-  background-color: black;
+  background-color: rgb(45, 45, 45);
   width: 10px;
   height: 10px;
   position: absolute;
-  top: -4px;
-  right: 26px;
+  top: -5px;
+  right: 29px;
   transform: rotate(45deg);
 }
 
