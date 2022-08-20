@@ -150,4 +150,9 @@ header a:hover {
     color: rgb(46, 125, 229);
     border-bottom: 2px solid rgb(46, 125, 229);
   }
+
+  .images-link-mobile {
+    color: rgb(121, 121, 121);
+    border-bottom: 2px solid white;
+  }
 }
