@@ -81,3 +81,73 @@ header a:hover {
     padding: 0.65em 2.6em;
   }
 }
+
+/* ==============================
+   Header left section for mobile 
+   ============================== */
+
+.hamburger-menu-icon-container,
+.all-link-mobile, .images-link-mobile {
+  font-size: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  border: none;
+}
+
+.hamburger-menu-icon {
+  height: 0;
+  width: 0;
+  opacity: 0;
+  fill: gray;
+}
+
+@media all and (max-width: 530px) {
+  header {
+    padding-left: 0.6em;
+  }
+
+  .about-link, .store-link, .gmail-link, .images-link {
+    font-size: 0;
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header-left-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .hamburger-menu-icon-container,
+  .all-link-mobile, .images-link-mobile {
+    height: auto;
+    width: auto;
+    opacity: 1;
+    font-size: 0.74rem;
+    margin-right: 5px;
+  }
+
+  .hamburger-menu-icon {
+    height: 19px;
+    width: auto;
+    opacity: 1;
+    padding: 10px 12px;
+  }
+
+  .all-link-mobile, .images-link-mobile {
+    padding: 1.2em 0.8em;
+    font-weight: bold;
+  }
+
+  .all-link-mobile:hover,
+  .images-link-mobile:hover {
+    text-decoration: none;
+  }
+
+  .all-link-mobile {
+    color: rgb(46, 125, 229);
+    border-bottom: 2px solid rgb(46, 125, 229);
+  }
+}
