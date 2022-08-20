@@ -72,18 +72,32 @@ main {
   width: 10px;
   height: 10px;
   position: absolute;
-  top: -5px;
+  top: -6px;
   right: 29px;
+  border: 1px solid white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   transform: rotate(45deg);
 }
 
+.mic-logo-container .tooltip .cover {
+  background-color: rgb(45, 45, 45);
+  width: 20px;
+  height: 9px;
+  position: absolute;
+  top: 0px;
+  right: 25px;
+  z-index: 100;
+}
+
 .mic-logo-container .tooltip,
-.mic-logo-container .tooltip .arrow {
+.mic-logo-container .tooltip .arrow,
+.mic-logo-container .tooltip .cover {
   opacity: 0;
 }
 
 .mic-logo-container:hover .tooltip,
-.mic-logo-container:hover .tooltip .arrow {
+.mic-logo-container:hover .tooltip .arrow,
+.mic-logo-container:hover .tooltip .cover {
   transition-delay: 0.2s;
   opacity: 1;
 }
