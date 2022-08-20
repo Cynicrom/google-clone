@@ -43,10 +43,48 @@ main {
   outline: none;
 }
 
+.mic-logo-container {
+  height: 25px;
+  position: relative;
+}
+
 .mic-logo {
   width: 25px;
   height: 25px;
   cursor: pointer;
+}
+
+.mic-logo-container .tooltip {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  white-space: nowrap;
+  position: absolute;
+  inset: auto auto -45px -16px;
+  padding: 0.9em 1em;
+  border: 1px solid white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.mic-logo-container .tooltip .arrow {
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: -4px;
+  right: 26px;
+  transform: rotate(45deg);
+}
+
+.mic-logo-container .tooltip,
+.mic-logo-container .tooltip .arrow {
+  opacity: 0;
+}
+
+.mic-logo-container:hover .tooltip,
+.mic-logo-container:hover .tooltip .arrow {
+  transition-delay: 0.2s;
+  opacity: 1;
 }
 
 main button {
