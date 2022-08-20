@@ -1,0 +1,83 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.08em 1.8em;
+  text-align: center;
+}
+
+header a {
+  color: rgb(32, 33, 36);
+  text-decoration: none;
+  font-size: 0.87rem;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+.about-link {
+  margin-left: 0.6em;
+  margin-right: 1.19em;
+}
+
+.header-right-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-right-section a {
+  font-size: 0.82rem;
+}
+
+.gmail-link {
+  margin-right: 0.29em;
+}
+
+.images-link {
+  margin-right: 0.5em;
+  width: 50px;
+}
+
+.apps-button-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1em;
+  padding: 0.6em;
+  border-radius: 50%;
+}
+
+.apps-button-link:hover {
+  background-color: rgb(243, 243, 243);
+}
+
+.apps-button {
+  color: rgb(95, 99, 104);
+  width: 24px;
+  height: 24px;
+}
+
+.login-button {
+  background-color: rgb(26, 115, 232);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  padding: 0.65em 2em;
+}
+
+.login-button:hover {
+  background-color: rgb(46, 125, 229);
+  box-shadow: 0 1px 2px rgb(46, 125, 229);
+}
+
+@media all and (min-width: 820px) {
+  .login-button {
+    padding: 0.65em 2.6em;
+  }
+}

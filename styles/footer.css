@@ -1,0 +1,71 @@
+footer {
+  background-color: rgb(242, 242, 242);
+  color: rgb(112, 117, 122);
+}
+
+footer .top-section,
+footer .bottom-section {
+  height: 3.15rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+footer .top-section {
+  font-size: 0.95rem;
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+footer .top-section p {
+  margin-left: 30px;
+}
+
+footer .bottom-section {
+  font-size: 0.87rem;
+  justify-content: space-evenly;
+}
+
+@media all and (min-width: 1200px) {
+  footer .bottom-section {
+    justify-content: space-between;
+  }
+}
+
+footer .bottom-section .left-section,
+footer .bottom-section .right-section {
+  display: flex;
+  flex-direction: row;
+}
+
+footer .bottom-section .left-section a {
+  margin-left: 2.2em;
+}
+
+footer .bottom-section .right-section a {
+  margin-right: 2.2em;
+}
+
+footer a {
+  color: rgb(112, 117, 122);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media all and (max-width: 530px) {
+  footer .bottom-section {
+    flex-direction: column;
+    height: 6.3rem;
+    justify-content: space-around;
+  }
+
+  footer .bottom-section .left-section .advertising-link {
+    margin-left: 0;
+  }
+
+  footer .bottom-section .left-section .settings-link {
+    margin-right: 0;
+  }
+}

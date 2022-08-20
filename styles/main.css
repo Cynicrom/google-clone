@@ -1,0 +1,68 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-logo {
+  width: min(60%, 272px);
+  margin-bottom: 25px;
+}
+
+.search-bar-container {
+  width: min(87%, 551px);
+  outline: 1px solid rgb(221, 221, 221);
+  border-radius: 40px;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.search-bar-container:hover {
+  outline: none;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  fill: rgb(160, 160, 160);
+}
+
+.search-bar {
+  font-size: 1rem;
+  flex: 1;
+  border: none;
+  margin: 0 0.6em;
+}
+
+.search-bar:focus {
+  outline: none;
+}
+
+.mic-logo {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+main button {
+  background-color: rgb(248, 249, 250);
+  color: rgb(60, 64, 67);
+  font-size: 0.88rem;
+  border: none;
+  border-radius: 3px;
+  padding: 0.56em 1.21em;
+}
+
+main button:hover {
+  box-shadow: 0 0.5px 3px rgba(0, 0, 0, 0.3);
+}
+
+.search-button {
+  margin-right: 9px;
+}
