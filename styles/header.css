@@ -57,7 +57,7 @@ header a:hover {
 }
 
 .apps-button {
-  color: rgb(95, 99, 104);
+  fill: rgb(95, 99, 104);
   width: 24px;
   height: 24px;
 }
